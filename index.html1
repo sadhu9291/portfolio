@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hareesh Sadhu | IT Engineer | DevOps & AI Enthusiast</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .dark-mode body {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    header {
+      background: linear-gradient(to right, #2c3e50, #4ca1af);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .profile-section {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    img.profile {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #4ca1af;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-top: 1rem;
+    }
+    .section {
+      margin: 2.5rem 0;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: background-color 0.3s;
+    }
+    .dark-mode .card {
+      background-color: #1f1f1f;
+      color: #f0f0f0;
+    }
+    h2 {
+      color: #00796b;
+    }
+    ul {
+      padding-left: 1.5rem;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #2c3e50;
+      color: white;
+      margin-top: 3rem;
+    }
+    .theme-toggle {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      background-color: #00796b;
+      color: white;
+      padding: 0.4rem 1rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    .theme-toggle:hover {
+      background-color: #005b4f;
+    }
+    a {
+      color: #00796b;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <button class="theme-toggle" onclick="toggleTheme()">Toggle Dark Mode</button>
+  <header>
+    <h1>Hareesh Sadhu</h1>
+    <p>IT Engineer | DevOps & Cloud | AI/ML & Blockchain Enthusiast</p>
+  </header>
+
+  <div class="container">
+    <div class="profile-section">
+      <img class="profile" src="photo.jpg" alt="Profile Photo" />
+    </div>
+
+    <div class="section card">
+      <h2>About Me</h2>
+      <p>I'm an IT Engineer passionate about modern technology and digital transformation. With experience in Infrastructure support, Cloud solutions, and a strong curiosity for AI and Blockchain, I'm actively working towards building scalable and intelligent IT systems. Currently working as a Programmer Analyst at Cognizant.</p>
+    </div>
+
+    <div class="section card">
+      <h2>Skills & Interests</h2>
+      <ul>
+        <li>Infrastructure Services (L1 & L2 Support)</li>
+        <li>Cloud Computing (GCP Certified, AWS Basics)</li>
+        <li>DevOps Tools: Git, Jenkins, Docker, CI/CD</li>
+        <li>AI & ML: Beginner-level models, classification, automation</li>
+        <li>Blockchain: Smart contracts, dApps (learning phase)</li>
+        <li>IT Strategy & Architecture Planning</li>
+      </ul>
+    </div>
+
+    <div class="section card">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Infra Automation:</strong> Automated L1 issue resolution with scripts & workflows.</li>
+        <li><strong>Cloud Cost Optimization:</strong> Reduced GCP costs with alerting and cleanup automation.</li>
+        <li><strong>ML-based Alert Triage:</strong> Basic machine learning classifier to reduce noise in support tickets.</li>
+        <li><strong>Blockchain Labs:</strong> Testing Ethereum smart contracts with Solidity.</li>
+        <li><strong>Upcoming:</strong> Self-healing Cloud Infrastructure powered by AI decision trees.</li>
+      </ul>
+    </div>
+
+    <div class="section card">
+      <h2>Contact Me</h2>
+      <p>Email: hareeshsadhu9291@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/sadhu9291" target="_blank">github.com/sadhu9291</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/sadhu-hareesh-989394216/" target="_blank">linkedin.com/in/sadhu-hareesh</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Hareesh Sadhu. Built with ❤️ and curiosity.</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
